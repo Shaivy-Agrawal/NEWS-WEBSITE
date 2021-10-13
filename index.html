@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/077e51b96a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav id="nav-container">
+      <div id="logo">
+        <h2><i class="far fa-newspaper"></i>BTNews</h2>
+      </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#content-container1">About</a></li>
+        <li><a href="#foot">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="imag">
+      <div id="btn-container">
+        <button class="btn" id="b1" onclick="contentChange(0)">1<p>Sept '21</p></button>
+        <button class="btn" id="b2" onclick="contentChange(1)">3<p>Sept '21</p></button>
+        <button class="btn" id="b3" onclick="contentChange(2)">4<p>Sept '21</p></button>
+        <button class="btn" id="b4" onclick="contentChange(3)">6<p>Sept '21</p></button>
+        <button class="btn" id="b5" onclick="contentChange(4)">7<p>Sept '21</p></button>
+      </div>
+    </section>
+    <div id="content-container1" class="cont-contain">
+      <section id="c1" class="content">
+        <div id="c1-imag"> <!--change-->
+          <p class="author">Written By<br><span id="c1-author">- Zhi Ruo</span></p> <!--change-->
+        </div>
+        <p id="c1-p">No new cases in China. Is this a ray of hope?</p> <!--change-->
+      </section>
+      <section id="c2" class="content">
+        <div id="c2-imag"></div> <!--change-->
+        <div id="c2-text">
+          <p id="c2-p">Garry Jones tops the charts with his exceptional photographs portfolio. Take a look!</p> <!--change-->
+        </div>
+      </section>
+      <section id="c3" class="content">
+        <div id="c3-imag">
+          <h2 id="c3-h2">50% SALE ON MASKS FOR 3 DAYS!</h2> <!--change-->
+          <video autoplay muted loop id="c3-video"> 
+            <source src="pictures/mask_sale.mp4" type="video/mp4" id="c3-video-src">   <!--change-->      
+        </div>
+        <div id="c3-text">
+          
+          <p id="c3-p">BUY NOW only from MASKCOMP! Running out soon!</p> 
+          <p id="advertisement">Advertisement</p><!--change-->
+        </div>
+      </section>
+    </div>
+    <div id="content-container2" class="cont-contain">
+      <section id="c4" class="content">
+        <p id="c4-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nam at enim atque pariatur cumque.</p> <!--change-->
+        <div id="c4-text-section">
+          <h2 id="c4-h2">GANGES SWACHH DRIVE</h2> <!--change-->
+          <div class="author" id="c4-author">- Anita Kher</div>
+        </div>
+      </section>
+      <section id="c5" class="content">
+        <section id="c5border">
+          <h2 id="c5-h2">WoRLd NeWs</h2> <!--change-->
+          <p id="c5-p">47K people in the world have recovered today from the Corona pandemic. It is a huge improvement!
+          </p> <!--change-->
+          <p class="author" id="c5-author">- Masan Keith</p>
+        </section>
+      </section>
+      <section id="c6" class="content">
+        <div id="c6-imag"></div>
+        <div id="c6-text">
+          <h2 id="c6-h2">CORONA IN INDIA</h2> <!--change-->
+          <p id="c6-p">
+            The cases in india yesterday have decreased by a whopping 50K!
+          </p> <!--change-->
+          <p class="author" id="c6-author">- Shubham Agrawal</p> <!--change-->
+        </div>
+      </section>
+    </div>
+    <footer id="foot">
+      <div>
+        <a href="http://facebook.com" target="_blank"
+          ><i class="fab fa-facebook fa-2x"></i
+        ></a>
+      </div>
+      <div>
+        <a href="http://twitter.com" target="_blank"
+          ><i class="fab fa-twitter fa-2x"></i
+        ></a>
+      </div>
+      <div>
+        <a href="http://instagram.com" target="_blank"
+          ><i class="fab fa-instagram fa-2x"></i
+        ></a>
+      </div>
+      <div>
+        <a href="http://youtube.com" target="_blank"
+          ><i class="fab fa-youtube fa-2x"></i
+        ></a>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
